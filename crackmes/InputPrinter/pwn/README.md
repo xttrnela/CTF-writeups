@@ -1,8 +1,12 @@
 ﻿### [khaledddd](https://crackmes.one/user/khaledddd)'s InputPrinter - Simple Buffer  Overflow  Task
 Platform: crackme.one
+
 Language: C/C++
+
 Platform: Unix/Linux
+
 Difficulty: 2.0
+
 Personal rating: 1.2
 
 Binary exploitation task performed on a VirtualBox Debian 13 VM.
