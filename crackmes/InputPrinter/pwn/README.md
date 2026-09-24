@@ -94,8 +94,7 @@ We transfer control to the terminal.
 
 **Running the script:**
 
-> (.venv) xela@pcdeblin:~/crackme/pwn$ python3 shellcode.py
-> 
+>     (.venv) xela@pcdeblin:~/crackme/pwn$ python3 shellcode.py 
 >     [*]  '/home/xela/crackme/pwn/vuln
 >     Arch:       amd64-64-little
 >     RELRO:      Partial RELRO
