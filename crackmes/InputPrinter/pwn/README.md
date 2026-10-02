@@ -1,5 +1,5 @@
 ﻿### [khaledddd](https://crackmes.one/user/khaledddd)'s InputPrinter - Simple Buffer  Overflow  Task
-Platform: crackmes.one
+Web Platform: crackmes.one
 
 Language: C/C++
 
