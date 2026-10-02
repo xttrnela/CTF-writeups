@@ -1,9 +1,14 @@
 ﻿### [soulreaper](https://crackmes.one/user/soulreaper)'s Death Trap
 Web Platform: crackmes.one
+
 Language: C/C++
+
 Platform: Unix/Linux
+
 Difficulty: 2.8
+
 Personal Rating: ~2.5
+
 Reverse Engineering task performed on a VirtualBox Debian 13 VM.
 
 ## Task Overview
