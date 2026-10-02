@@ -16,7 +16,7 @@ The purpose of this crackme is to  find the correct  serial  key.
 
 Unpacking the archive using the standard crackmes.one password. This is an x86-64 ELF file. We will immediately make it executable using the command `chmod u+x sysupdate.`
 
->   xela@pcdeblin:~/crackme/pwn$ chmod u+x vuln
+>   xela@pcdeblin:~/crackme/pwn$ chmod u+x sysupdate
 
 Next, we use Ghidra to view the decompiled code.
 This  code  demonstrates  interprocess  communication  (IPC)  in  UNIX/Linux  operating  systems  using an anonymous  pipe  and  process  separation  via the fork()  system  call. After  the  current  (source)  process has requested  serial,  it  creates a child  process  in  which it reads the entered  50  bytes  into the buffer.  since  serial  initially  holds  64  bytes,  and the buffer  is  8  bytes in size, the remaining  42  bytes of our  serial  overflow the buffer  and are written  further  in  stack  memory to the local_40 array,  which is 48  bytes in size. Next, the program works with the first 16 bytes of our serial, where the first 8 bytes are hashed in the child process of our original parent, and the other 8 bytes are hashed in the descendant of our child process. 
